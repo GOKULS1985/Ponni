@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
       size: '1200 – 2400 sq.ft',
       type: 'Residential Plots',
       gradientSeed: 0
-      image: "https://images.unsplash.com/photo-1605352081508-2e09927ecfe3?q=80&w=1170&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1605352081508-2e09927ecfe3?q=80&w=1170&auto=format&fit=crop",
     },
     {
       name: 'Ponni Meadow Court',
