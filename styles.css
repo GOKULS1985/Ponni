@@ -217,7 +217,7 @@ h1,h2,h3,h4{
   gap: 24px;
 }
 
-.brand-logo{ height: 34px; width:auto; }
+.brand-logo{ height: 70px; width:auto; }
 
 .main-nav{
   display:flex;
