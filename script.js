@@ -145,15 +145,11 @@ document.addEventListener('DOMContentLoaded', () => {
      6. Project data + render + filter
   --------------------------------------------------------------------- */
   const PROJECTS = [
-    {
-      name: 'Ponni Riverview',
-      location: 'Saravanampatti',
-      status: 'ongoing',
-      plots: '210 Plots',
-      size: '1200 – 2400 sq.ft',
-      type: 'Residential Plots',
-      gradientSeed: 0
-    },
+  {
+    title: "Project 1",
+    status: "Completed",
+    image: "https://images.unsplash.com/photo-1605352081508-2e09927ecfe3?q=80&w=1170&auto=format&fit=crop"
+  },
     {
       name: 'Ponni Meadow Court',
       location: 'Kovaipudur',
@@ -207,7 +203,10 @@ document.addEventListener('DOMContentLoaded', () => {
     return `
       <article class="project-card" data-status="${p.status}">
         <div class="project-media">
-          <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <img
+          src="${p.image}"
+          alt="${p.title}"
+          class="project-image">
             <defs>
               <linearGradient id="pg${p.gradientSeed}" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0%" stop-color="#0E84BD"/>
