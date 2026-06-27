@@ -207,7 +207,8 @@ document.addEventListener('DOMContentLoaded', () => {
     return `
       <article class="project-card" data-status="${p.status}">
         <div class="project-media">
-          <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <image src="RiversiteImage.jpg" alt="${p.name}" class="project-image"/>
+          <svg class="project-bg" width="300" height="200" viewBox="0 0 300 200" fill="none">
             <defs>
               <linearGradient id="pg${p.gradientSeed}" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0%" stop-color="#0E84BD"/>
