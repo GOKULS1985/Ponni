@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '210 Plots',
       size: '1200 – 2400 sq.ft',
       type: 'Residential Plots',
-      image: 'https://images.unsplash.com/photo-1605352081508-2e09927ecfe3?q=80&w=1170&auto=format&fit=crop' 
+      gradientSeed: 0
     },
     {
       name: 'Ponni Meadow Court',
@@ -198,16 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
       size: '1150 – 2000 sq.ft',
       type: 'Residential Plots',
       gradientSeed: 5
-    },    
-    {
-      name: 'Ponni Mango Grove',
-      location: 'Salem',
-      status: 'upcomming',
-      plots: '400 Plots',
-      size: '1150 – 2000 sq.ft',
-      type: 'Gated Plots',
-      gradientSeed: 5
-    },
+    }
   ];
 
   const grid = document.getElementById('projectGrid');
@@ -216,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return `
       <article class="project-card" data-status="${p.status}">
         <div class="project-media">
-          <img src="${p.image}" alt="${p.name}" class="project-image">
+          <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
             <defs>
               <linearGradient id="pg${p.gradientSeed}" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0%" stop-color="#0E84BD"/>
@@ -227,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <rect width="300" height="200" fill="url(#pg${p.gradientSeed})"/>
             <path d="M0 150 Q 75 110 150 140 T 300 130 V 200 H 0 Z" fill="rgba(255,255,255,0.14)"/>
             <path d="M0 170 Q 80 145 150 165 T 300 160 V 200 H 0 Z" fill="rgba(255,255,255,0.18)"/>
-            
+          </svg>
           <span class="project-badge ${p.status}">${p.status}</span>
         </div>
         <div class="project-body">
