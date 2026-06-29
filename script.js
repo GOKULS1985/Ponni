@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '98 Plots',
       size: '1800 – 4000 sq.ft',
       type: 'Villa Plots',
-      image: "Northgate.jpg",
+      image: "NorthGate.jpg",
       gradientSeed: 4
     },
     {
