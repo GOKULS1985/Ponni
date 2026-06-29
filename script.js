@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return `
       <article class="project-card" data-status="${p.status}">
         <div class="project-media">
-          <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <img src="${p.image}" alt="${p.name}" class="project-image">
             <defs>
               <linearGradient id="pg${p.gradientSeed}" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0%" stop-color="#0E84BD"/>
@@ -227,8 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <rect width="300" height="200" fill="url(#pg${p.gradientSeed})"/>
             <path d="M0 150 Q 75 110 150 140 T 300 130 V 200 H 0 Z" fill="rgba(255,255,255,0.14)"/>
             <path d="M0 170 Q 80 145 150 165 T 300 160 V 200 H 0 Z" fill="rgba(255,255,255,0.18)"/>
-            <img src="${p.image}" alt="${p.name}" class="project-image">
-          </svg>
+            
           <span class="project-badge ${p.status}">${p.status}</span>
         </div>
         <div class="project-body">
