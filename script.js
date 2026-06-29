@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '120 Plots',
       size: '1150 – 2000 sq.ft',
       type: 'Residential Plots',
-      image: "https://unsplash.com/photos/white-concrete-building-under-blue-sky-during-daytime-_r80LCluvVM",
+      image: "Garden Row",
       gradientSeed: 5
     }
     ,
