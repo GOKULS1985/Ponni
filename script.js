@@ -163,6 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '168 Plots',
       size: '1100 – 2850 sq.ft',
       type: 'Residential Plots',
+      image: "https://images.unsplash.com/photo-1646307361779-39181bfea7ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWVhZG93JTIwQ291cnQlMjBIb21lfGVufDB8fDB8fHww",
       gradientSeed: 1
     },
     {
@@ -172,6 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '142 Plots',
       size: '1400 – 3100 sq.ft',
       type: 'Villa Plots',
+      image: "https://images.unsplash.com/photo-1590654632619-a28997fa2445?q=80&w=1320&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       gradientSeed: 2
     },
     {
@@ -181,6 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '256 Plots',
       size: '1000 – 2200 sq.ft',
       type: 'Residential Plots',
+      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       gradientSeed: 3
     },
     {
@@ -190,6 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '98 Plots',
       size: '1800 – 4000 sq.ft',
       type: 'Villa Plots',
+      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       gradientSeed: 4
     },
     {
@@ -199,16 +203,18 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '120 Plots',
       size: '1150 – 2000 sq.ft',
       type: 'Residential Plots',
+      image: "https://unsplash.com/photos/white-concrete-building-under-blue-sky-during-daytime-_r80LCluvVM",
       gradientSeed: 5
     }
     ,
     {
       name: 'Ponni Mango Grove',
-      location: 'Neelambur',
-      status: 'completed',
-      plots: '120 Plots',
+      location: 'Salem',
+      status: 'upcoming',
+      plots: '220 Plots',
       size: '1150 – 2000 sq.ft',
       type: 'Residential Plots',
+      image: "https://images.unsplash.com/photo-1582746196058-3e8b191eacef?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       gradientSeed: 6
     }
   ];
