@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '98 Plots',
       size: '1800 – 4000 sq.ft',
       type: 'Villa Plots',
-      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "Northgate.jpg",
       gradientSeed: 4
     },
     {
@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '120 Plots',
       size: '1150 – 2000 sq.ft',
       type: 'Residential Plots',
-      image: "NorthGate.jpg",
+      image: "https://plus.unsplash.com/premium_photo-1676357175446-8e85f2205ea6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       gradientSeed: 5
     }
     ,
