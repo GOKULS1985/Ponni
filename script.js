@@ -152,7 +152,9 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '210 Plots',
       size: '1200 – 2400 sq.ft',
       type: 'Residential Plots',
+      image: "https://images.unsplash.com/photo-1605352081508-2e09927ecfe3?q=80&w=1170&auto=format&fit=crop",
       gradientSeed: 0
+      
     },
     {
       name: 'Ponni Meadow Court',
@@ -207,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return `
       <article class="project-card" data-status="${p.status}">
         <div class="project-media">
+          <img src="${p.image}" alt="${p.name}" />
           <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
             <defs>
               <linearGradient id="pg${p.gradientSeed}" x1="0" y1="0" x2="1" y2="1">

@@ -556,12 +556,17 @@ h1,h2,h3,h4{
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
 }
-
 .project-media{
   position:relative;
   height: 200px;
   background: var(--grad-brand);
   overflow:hidden;
+}
+.project-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
 }
 .project-media svg{ width:100%; height:100%; }
 
