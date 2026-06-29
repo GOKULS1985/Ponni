@@ -152,8 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plots: '210 Plots',
       size: '1200 – 2400 sq.ft',
       type: 'Residential Plots',
-      gradientSeed: 0
-      
+      image: 'https://images.unsplash.com/photo-1605352081508-2e09927ecfe3?q=80&w=1170&auto=format&fit=crop' 
     },
     {
       name: 'Ponni Meadow Court',
@@ -201,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gradientSeed: 5
     },    
     {
-      name: 'Sample',
+      name: 'Ponni Mango Grove',
       location: 'Salem',
       status: 'upcomming',
       plots: '400 Plots',
@@ -228,6 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <rect width="300" height="200" fill="url(#pg${p.gradientSeed})"/>
             <path d="M0 150 Q 75 110 150 140 T 300 130 V 200 H 0 Z" fill="rgba(255,255,255,0.14)"/>
             <path d="M0 170 Q 80 145 150 165 T 300 160 V 200 H 0 Z" fill="rgba(255,255,255,0.18)"/>
+            <img src="${p.image}" alt="${p.name}" class="project-image">
           </svg>
           <span class="project-badge ${p.status}">${p.status}</span>
         </div>
