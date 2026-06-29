@@ -153,6 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
       size: '1200 – 2400 sq.ft',
       type: 'Residential Plots',
       gradientSeed: 0
+      
     },
     {
       name: 'Ponni Meadow Court',
@@ -198,7 +199,16 @@ document.addEventListener('DOMContentLoaded', () => {
       size: '1150 – 2000 sq.ft',
       type: 'Residential Plots',
       gradientSeed: 5
-    }
+    },    
+    {
+      name: 'Sample',
+      location: 'Salem',
+      status: 'upcomming',
+      plots: '400 Plots',
+      size: '1150 – 2000 sq.ft',
+      type: 'Gated Plots',
+      gradientSeed: 5
+    },
   ];
 
   const grid = document.getElementById('projectGrid');
